@@ -1,0 +1,17 @@
+{
+    "name": "sterner-stuff/wp-cli-helper",
+    "description": "Abstraction for registering self-contained WP-CLI commands",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ethan Clevenger",
+            "email": "ethan@sternerstuff.dev"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SternerStuff\\WP_CLI_Helper\\": "src/"
+        }
+    }
+}
